@@ -6,5 +6,6 @@ setup(
     description='A simple tool for printing colorful text.',
     author='Stephen Ling',
     author_email='lingfromsh@163.com',
-    url='https://github.com/lingfromSh/cprint'
+    url='https://github.com/lingfromSh/cprint',
+    packages=['cprint', ]
 )
