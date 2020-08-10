@@ -26,7 +26,7 @@ COLOR_MAP = {
 }
 
 COLOR_PREFIX = "\033[{0}m"
-COLOR_SUFFIX = "\033m"
+COLOR_SUFFIX = "\033[0m"
 
 DISPLAY_TYPE_DEFAULT = "default"
 DISPLAY_TYPE_HIGHLIGHT = "highlight"
@@ -74,4 +74,4 @@ def cprint(text, *args):
 
 
 if __name__ == "__main__":
-    cprint("Hello World")
+    cprint("Hello World", "red", "green")
